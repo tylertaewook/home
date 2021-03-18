@@ -1,11 +1,14 @@
 import React from 'react';
+import Pdf from "../../editable-stuff/resume.pdf";
+
+import axios from "axios";
 
 import { 
     Col,
     Button,
     Card
  } from "react-bootstrap";
-const ExperienceCard = ({data}) => {
+const ExperienceCard = ({data, paper}) => {
     return ( 
         <Col lg="6">
              <Card className="shadow-lg--hover shadow border-0 text-center rounded my-2">
@@ -29,6 +32,22 @@ const ExperienceCard = ({data}) => {
                         </ul>
                     <div>
                     </div>
+                    
+                    {paper && (
+                      <p className="lead text-center">
+                        <a
+                          className="btn btn-outline-dark btn-lg"
+                          href={paper}
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          role="button"
+                          aria-label="paper"
+                        >
+                          Paper
+                        </a>
+                      </p>
+                     )}
+                    
                 </Card.Body>
             </Card> 
         </Col>
