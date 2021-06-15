@@ -70,8 +70,8 @@ const repos = {
   show: true,
   heading: "Featured Projects",
   gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: ["project-orbitron","sstp-hist-cnn","arduino-turret","chisktale"],
+  reposLength: 3,
+  specificRepos: ["project-orbitron","sstp-hist-cnn","arduino-turret"],
 };
 
 // Leadership SECTION
