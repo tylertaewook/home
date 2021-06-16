@@ -70,7 +70,7 @@ const repos = {
   show: true,
   heading: "Featured Projects",
   gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
-  reposLength: 1,
+  reposLength: 0,
   specificRepos: ["RLpractice","RLpapers","project-orbitron","sstp-hist-cnn","arduino-turret"],
 };
 
@@ -81,20 +81,20 @@ const leadership = {
   message:
     "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact in the Kent community. In my role as the President of Kent Coding Club, I initiated and led a STEM outreach program where members taught local students programming and robotics using mBots. During weekdays, I assisted my peers to understand concepts easily in math/science as Peer Tutor. In addition, I proposed and implemented a demo chatbot application to make the peer tutor signup process much easier.",
   images: [
-    { 
-      img: require("../editable-stuff/cc1.jpeg"), 
-      label: "Coding Club", 
+    {
+      img: require("../editable-stuff/cc1.jpeg"),
+      label: "Coding Club",
       paragraph: "Teaching how to use foldscopes"
     },
-    { 
-      img: require("../editable-stuff/cc2.jpeg"), 
-      label: "Coding Club", 
-      paragraph: "Presenting how to program mBots" 
+    {
+      img: require("../editable-stuff/cc2.jpeg"),
+      label: "Coding Club",
+      paragraph: "Presenting how to program mBots"
     },
-    { 
-      img: require("../editable-stuff/kentgenomebox.jpeg"), 
-      label: "Coding Club", 
-      paragraph: "Presenting how to program mBots" 
+    {
+      img: require("../editable-stuff/kentgenomebox.jpeg"),
+      label: "Coding Club",
+      paragraph: "Presenting how to program mBots"
     },
   ],
   imageSize: {
@@ -146,7 +146,7 @@ const experiences = {
       role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
       company: 'tylertaewook/project-orbitron',
       companylogo: require("../editable-stuff/orbitron.png"),
-      
+
       date: 'Jan 2018 – June 2020',
       desc:
         'Independent research project done as part of the Kent School Guild',
@@ -164,7 +164,7 @@ const experiences = {
       role: 'Histogram Layer for Texture Classification',
       company: 'tylertaewook/sstp-hist-cnn',
       companylogo: require("../editable-stuff/sstp.png"),
-      
+
       date: 'June 2019 – Aug 2019',
       desc:
         'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
